@@ -1,0 +1,18 @@
+<form method="POST">
+    <input name="a">
+    <select name="operation">
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="multiply">*</option>
+        <option value="divide">/</option>
+    </select>
+    <input name="b">
+    <button>Calculate</button>
+</form>
+
+{% if result is not none %}
+    Answer: {{ result }}
+{% endif %}
+{% if error %}
+    {{ error }}
+{% endif %}
