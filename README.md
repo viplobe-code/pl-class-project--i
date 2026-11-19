@@ -8,20 +8,6 @@ Instead of crashing when someone makes a mistake (like typing letters or dividin
 
 ---
 
-## Folder Structure
-
-Make sure your project folder looks like this:
-
-```text
-calculator/
-├── app.py               # The main Flask server and calculation engine
-├── test_client.py       # A script to automatically test the API
-└── templates/
-    └── index.html       # The web page form for human users
-```
-
-*(Note: Flask requires HTML files to be inside a folder named `templates` right next to `app.py`.)*
-
 ---
 
 ## Setup & Installation
