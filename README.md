@@ -48,6 +48,9 @@ Activate it:
 * **Mac / Linux:**
   ```bash
   source venv/bin/activate
+  fish 
+  source venv/bin/activate.fish
+
   ```
 *(You should now see `(venv)` at the start of your terminal line.)*
 
